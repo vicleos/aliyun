@@ -9,6 +9,7 @@
             "email": "510331882@qq.com"
         }
     ],
+	"type": "project",
     "require": {
 		"php": ">=5.5.9",
 		"aliyuncs/oss-sdk-php": "~2.0"
