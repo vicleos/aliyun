@@ -1,5 +1,5 @@
 {
-    "name": "laggards/aliyun",
+    "name": "vicleos/aliyun",
     "description": "提供阿里云 OSS、MNS(含SMS短信消息)、memcached等服务接口，适用于Laravel、Symfony、TinyLara等所有支持composer的PHP框架。",
     "keywords": [
         "L5",
@@ -17,13 +17,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Laggards",
-            "email": "laggards@hotmail.com"
+            "name": "Vicleos",
+            "email": "510331882@qq.com"
         }
     ],
 	"autoload": {
         "psr-4": {
-            "Laggards\\Aliyun\\": "src/"
+            "Vicleos\\Aliyun\\": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laggards\Aliyun;
+namespace Vicleos\Aliyun;
 
 class MemcacheSASL
 {

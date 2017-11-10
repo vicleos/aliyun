@@ -1,5 +1,5 @@
 <?php 
-namespace Laggards\Aliyun\Provider;
+namespace Vicleos\Aliyun\Provider;
 
 require_once __DIR__ . '/../lib/AliyunOSS/sdk.class.php';
 use ALIOSS;

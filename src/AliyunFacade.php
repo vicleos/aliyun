@@ -1,6 +1,6 @@
-<?php namespace Laggards\Aliyun;
+<?php namespace Vicleos\Aliyun;
 
-use Laggards\Aliyun\MNS;
+use Vicleos\Aliyun\MNS;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Config\Repository;
 use OSS\OssClient;

@@ -7,27 +7,27 @@
 ### 通过 Composer 安装
 
 ```sh
-composer require laggards/aliyun
+composer require vicleos/aliyun
 ```
 
 ### 编辑 config/app.php 注册 providers 和 aliases
 
 ```php
 'providers' => [
-    Laggards\Aliyun\AliyunServiceProvider::class,
+    Vicleos\Aliyun\AliyunServiceProvider::class,
 ]
 ```
 
 ```php
 'aliases' => [
-    'Aliyun' => Laggards\Aliyun\Facades\Aliyun::class,
+    'Aliyun' => Vicleos\Aliyun\Facades\Aliyun::class,
 ]
 ```
 
 ### 生成配置文件
 
 ```sh
-php artisan vendor:publish --provider="Laggards\Aliyun\AliyunServiceProvider"
+php artisan vendor:publish --provider="Vicleos\Aliyun\AliyunServiceProvider"
 ```
 将在config文件夹中生成一个aliyun.php的配置文件，在该配置文件中填入相关信息。
 

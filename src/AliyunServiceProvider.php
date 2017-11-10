@@ -1,6 +1,6 @@
 <?php
 
-namespace Laggards\Aliyun;
+namespace Vicleos\Aliyun;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
